@@ -1,0 +1,232 @@
+body {
+    background: #EEEEEE;
+    height: 100vh;
+    
+}
+
+.container {
+    font-family: 'Bitter', serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #6d9b7c;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    min-width: 10vw;
+}
+
+.btnlogout{
+    background-color: transparent;
+    color: #3e5e49;
+    font-size: 14pt;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+.btnlogout.adaugare{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.add{
+    margin-left: 10px;
+}
+
+#sidebar .nav-item {
+    text-align: center;
+    padding: 0px 0;
+}
+
+#sidebar .nav-item a {
+    color: #EEEEEE;
+    /* Change text color */
+}
+
+
+#sidebar .nav-item a.active {
+    color:  #3e5e49;
+    ;
+
+}
+
+.vertical-nav {
+    margin-top: 20vh;
+}
+
+.logo {
+    max-height: 30px;
+    margin: 15px 25px;
+}
+
+a.navbar-brand {
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+
+
+#home {
+    background-color: #6d9b7c;
+    /* Adjust padding as needed */
+
+}
+
+.welcome {
+    padding: 10px 0;
+    color: #f5c000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.bg-img img {
+    width: 100vw;
+    height:90.2vh;
+    
+    margin: 0 auto;
+    /* Centers the image horizontally */
+}
+
+  
+
+#main {
+
+     margin-left: 20vw;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+table {
+    
+    width: 80%;
+    /* Reduce table width */
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+tr{
+    text-align:center;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 0px;
+    text-align:center;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+th {
+    background-color: #6d9b7c;
+    color: #EEEEEE;
+}
+
+.btn.btnlogout.adaugare {
+    background-color: transparent;
+    color: #6d9b7c;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 15px;
+    text-decoration: none;
+
+}
+
+button.adaugare:hover {
+    color: #2c333f;
+}
+
+
+
+form {
+    width:50vw;
+    margin-top: 20px;
+    padding:30px;
+    padding-bottom: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 45vw;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form #send {
+    text-align: center;
+    margin-top: 15px;
+}
+
+form #send input[type="submit"] {
+    background-color: transparent;
+    color: #4f5d72;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.1s ease;
+    font-weight: bold;
+    font-size: large;
+}
+
+form #send input[type="submit"]:hover {
+    transition:  0.1s ease;
+    scale: 1.3;
+}
+
+.btnppp{
+    background-color: transparent;
+    color: #3e5e49;
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 22pt;
+}
+
+a{
+    color: #3e5e49;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    border: #3e5e49;
+}   

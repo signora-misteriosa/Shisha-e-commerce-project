@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;600&family=Merriweather:wght@700&family=Playfair+Display:ital@1&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+        <div id="antet_mobile">
+            <div id="antet" style= "display : flex;">
+                <button id="buttonmenu"><img src="menu_burger.png" alt="3linii" width="20"></button>
+                <button><img src="search_icon.png" alt="lupa" width="20"></button>
+                <button id="shisha"><a href="proiectfinal.html"><img src="shisha.png" alt="logo" width="100"></a></button>
+                <button><img src="heart.png" alt="inima" width="22"></button>
+                <button><img src="bag_icon.png" alt="shopbag" width="20"></button>
+            </div>
+        </div>
+        <div id="antet_desktop">
+            <div id="antet_linie-1">
+                <div id="l1-1">
+                    <button>Femei</button>
+                    <button>Bărbați</button>
+                </div>
+                <button><a href="proiectfinal.html"><img src="shisha.png" alt="logo" width="250"></a></button>
+                <div id="l1-2">
+                    <button><img src="user.png" alt="om" width="30"></button>
+                    <button><img src="heart.png" alt="inima" width="30"></button>
+                    <button><img src="bag_icon.png" alt="shopbag" width="30"></button>
+                </div>
+            </div>
+            <div id="antet_linie-2">
+                <div id="l2-1">
+                    <button>New In</button>
+                    <button>Shop By</button>
+                    <button>Brands</button>
+                    <button>Genți</button>
+                    <button>Pre-owned</button>
+                    <button>Sale</button>
+                </div>
+                <div id="l2-2">
+                    <form class="example">
+                        <input type="text" placeholder="Search..." name="search">
+                        <button type="submit"><img src="search_icon.png" alt="lupa" width="20"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav id="menu" style= "display : none;">
+        <div id="antet_menu">
+            <img src="shisha.png" alt="logo" width="130">
+            <button id="close_menu"><img src="close-window.png" alt="x" width="30"></button>
+        </div>
+        <div class="tab">
+          <button class="tablinks" onclick="deschide_categoria(event, 'Femei')">Femei</button>
+          <button class="tablinks" onclick="deschide_categoria(event, 'Barbati')">Bărbați</button>
+        </div>
+        <div id="Femei" class="tabcontent" style="display: none;">
+          <div class="Femei_cat">
+            <button>Exclusive</button>
+            <button>Toate gențile</button>
+            <button>Genți de plajă</button>
+            <button>Genți Bucket</button>
+            <button>Genți Clutch</button>
+            <button>Genți Mini</button>
+            <button>Genți Cross-body</button>
+            <button>Genți de umăr</button>
+            <button>Genți Tote</button>
+            <button>Sale</button>
+          </div>
+        </div>
+        <div id="Barbati" class="tabcontent" style="display: none;">
+          <div class="Femei_cat">
+            <button>Poșete și genți</button>
+            <button>Toate gențile</button>
+            <button>Rucsacuri</button>
+            <button>Genți centură</button>
+            <button>Genți de mână</button>
+            <button>Genți pentru laptop</button>
+            <button>Serviete</button>
+            <button>Genți de voiaj și Trolere </button>
+            <button>Genți de umăr</button>
+            <button>Genți Tote</button>
+            <button>Sale</button>
+          </div>
+        </div>
+        <div id="contul_meu">
+            <p>Contul meu</p>
+            <button>Conectare</button>
+            <button>Înregistrează-te</button>
+        </div>
+    </nav>
+    <section>
+      <div class="container_slide"> 
+        <div class="slide_line"> 
+          <div class="slide slide1 active">
+            <img src="p10.png" alt="Imagine 1">
+          </div>
+          <div class="slide slide2">
+            <img src="p11.png" alt="Imagine 2">
+          </div>
+          <div class="slide slide3">
+            <img src="p12.png" alt="Imagine 3">
+          </div>
+          <div class="slide slide4">
+            <img src="p13.png" alt="Imagine 4">
+          </div>
+          <div class="slide slide5">
+            <img src="p14.jpg" alt="Imagine 5">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sectiunea_1_tab">
+      <div class="container_slide_tab"> 
+        <div class="slide_line_tab"> 
+          <div class="slidetab slide1tab activetab">
+            <img src="p10.png" alt="Imagine 1">
+          </div>
+          <div class="slidetab slide2tab">
+            <img src="p11.png" alt="Imagine 2">
+          </div>
+          <div class="slidetab slide3tab">
+            <img src="p12.png" alt="Imagine 3">
+          </div>
+        </div>
+      </div>
+      <div class="img14tab">
+        <img src="p14.jpg" alt="p14" width="310" height="410">
+      </div>
+    </section>
+    <div id="sectiunea_1_desktop" >
+        <div id="imagini1">
+          <img src="p10.png" alt="p10" width="425">
+          <img src="p14.jpg" alt="p14" width="425">
+        </div>
+        <div id="imagini2">
+          <img src="p11.png" alt="p11" width="394">
+          <img src="p12.png" alt="p12" width="394">
+        </div>
+    </div>
+    <section id="sectiunea_1">
+      <article>
+        <h4>Jacquemus</h4>
+        <p>Geantă de umăr Le Chiquito Noeud</p>
+        <p id="price">$1,005</p>
+        <br>
+        <br>
+        <p>Mărime unică disponibilă</p>
+      </article>
+      <div id="butoane_sect_1">
+        <button>Adaugă în coș</button>
+        <button><img src="heart_1.png" alt="inima_icon" width="30"></button>
+      </div>
+      <div id="dispobilitate_desktop">
+        <p>Disponibilă și în </p>
+        <div>
+          <button><img src="dispo2.png" alt="geantapiersic" width="50"></button>
+          <button><img src="dispo1.png" alt="geantaverde" width="50"></button>
+        </div>
+      </div>
+    </section>
+    <section id="sectiunea_2">
+      <div id="part_1">
+        <article id="descriere">Geantă de umăr Le Chiquito Noeud de la Jacquemus, cu piele de vițel mov, accesorii aurii, partea superioară rabatabilă cu închidere magnetică, curea de umăr simplă și buzunar interior.</article>
+        <div id="informatii">
+          <article id="repere">
+            <h4>Repere</h4>
+            <ul>
+              <li>Piele de vițel 100%</li>
+              <li>Adâncime 8 cm</li>
+              <li>Mâner 10 cm</li>
+              <li>Înălțime 13 cm</li>
+              <li>Curea 53 cm</li>
+              <li>Lățime 18 cm</li> 
+            </ul>
+          </article>
+          <article id="compozitie">
+            <h4>Wearing</h4>
+            <p>Modelul are 1,75 m<br> și poartă mărimea OS</p>
+          </article>
+        </div>
+      </div>
+      <div id="ultima_imagine_produs">
+        <img src="p13.png" alt="p13" width="287">
+      </div>
+    </section>
+    <footer id="section_5" class="desktop">
+        <div id="info_">
+            <div id="info">
+                <button class="acordeon">Follow us</button>
+                <div class="content_acordeon">
+                    <div id="icons first">
+                        <button class="imgbtn"><img src="twitter.png" alt="twitter" width="25"></button>
+                        <button class="imgbtn"><img src="facebook.png" alt="facebook" width="25"></button>
+                        <button class="imgbtn"><img src="instagram.png" alt="instagram" width="25"></button> 
+                    </div>  
+                </div>
+            </div>
+            <div id="info">
+                <button class="acordeon">Serviciu Clienți</button>
+                <div class="content_acordeon">
+                    <div id="icons">
+                        <button>Contactați-ne</button>
+                        <button>Comenzi și livrare</button>
+                        <button>Plata și livrare</button> 
+                        <button>Retururi și rambursări</button>
+                        <button>Politica de confidențialitate</button> 
+                    </div>  
+                </div>
+            </div>
+            <div id="info">
+                <button class="acordeon">Despre SHISHA</button>
+                <div class="content_acordeon">
+                    <div id="icons">
+                        <button>Despre noi</button>
+                        <button>Cariere</button>
+                        <button>Program de afiliere</button> 
+                        <button>Reducere pentru studenți UNiDAYS</button>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div id="info_4">
+            <div id="info_3">
+            <div id="info_1">
+                <img src="romania.png" alt="flag" width="25">
+                <p>România, CAD&dollar;</p>
+            </div>
+            <div id="info_2">
+                <img src="copyright.png" alt="c" width="15">
+                <p>Copyright 2023 SHISHA UK Limited. Toate drepturile rezervate.</p>
+            </div>
+        </div>
+        </div>
+    </footer> 
+
+    <script type="text/javascript" >
+            var buttonmenu = document.getElementById('buttonmenu');
+            var menu = document.getElementById('menu');
+            var antet = document.getElementById('antet')
+            var close = document.getElementById ('close_menu')
+
+            buttonmenu.addEventListener('click', function() {
+                if (menu.style.display === 'none' && antet.style.display === 'flex') {
+                    menu.style.display = 'block';
+                    antet.style.display = 'none';
+                }
+                });
+
+                close.addEventListener('click', function() {
+                    if (menu.style.display === 'block' && antet.style.display === 'none') {
+                        menu.style.display = 'none';
+                        antet.style.display = 'flex';
+                    } 
+                });
+
+            function deschide_categoria(evt, category) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                  tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                  tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(category).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+
+            
+
+            const slides = document.querySelectorAll(".slide");
+
+            setInterval(() => {
+                const activeSlide = document.querySelector(".slide.active");
+                activeSlide.classList.remove("active");
+                if (activeSlide.nextElementSibling) {
+                    activeSlide.nextElementSibling.classList.add("active");
+                } else {
+                    slides[0].classList.add("active");
+                }
+            }, 3000);
+
+            
+
+            var a = document.getElementsByClassName("acordeon");
+            var i;
+
+            for (i = 0; i < a.length; i++) {
+              a[i].addEventListener("click", function() {
+                this.classList.toggle("activa");
+                var content_acordeon = this.nextElementSibling;
+                if (content_acordeon.style.maxHeight) {
+                  content_acordeon.style.maxHeight = null;
+                } else {
+                  content_acordeon.style.maxHeight = content_acordeon.scrollHeight + "px";
+                } 
+              });
+            }
+
+            
+
+            // pentru tableta
+            const slidestab = document.querySelectorAll(".slidetab");
+
+            setInterval(() => {
+                const activeSlidetab = document.querySelector(".slidetab.activetab");
+                activeSlidetab.classList.remove("activetab");
+                if (activeSlidetab.nextElementSibling) {
+                    activeSlidetab.nextElementSibling.classList.add("activetab");
+                } else {
+                    slidestab[0].classList.add("activetab");
+                }
+            }, 3000);
+    </script>
+</body>
+</html> 
